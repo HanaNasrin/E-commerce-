@@ -56,7 +56,7 @@ function Navbar() {
             <input type="search" placeholder="Search....." className="border-b-1 border-gray-300 mt-3" />
       </div>
       <div className='flex space-x-4'>
-      <NavLink to="/admin" className="hover:text-blue-600 "><b>Admin</b></NavLink>
+      {/* <NavLink to="/admin" className="hover:text-blue-600 "><b>Admin</b></NavLink> */}
           <NavLink to="/login" className="hover:text-blue-600">Login</NavLink>
           <NavLink to="/signup" className="hover:text-blue-600">SignUp</NavLink>
       </div>
