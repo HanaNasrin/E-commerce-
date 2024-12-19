@@ -1,14 +1,15 @@
 {
     "products": [
-      { "id": 1, "name": "realme-note-60x", "price": 20, "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*" },
-      { "id": 2, "name": "mate-70", "price": 25, "image": "https://i.gadgets360cdn.com/products/small/mate-70-240x180-1732625107.jpg?downsize=120:*" },
-      { "id": 3, "name": "reno-13", "price": 30, "image": "https://i.gadgets360cdn.com/products/small/reno-13-db-240x180-1732623706.jpg?downsize=120:*" },
-      { "id": 4, "name": "honor-x60-pro", "price": 35, "image": "https://i.gadgets360cdn.com/products/small/honor-x60-pro-db-240x180-1729254519.jpg?downsize=120:*" },
-      { "id": 5, "name": "mate-70-pro-plus", "price": 40, "image": "https://i.gadgets360cdn.com/products/large/mate-70-pro-plus-725x800-1732625652.jpg?downsize=*:180" },
-      { "id": 6, "name": "poco-c75", "price": 45, "image": "https://i.gadgets360cdn.com/products/small/poco-c75-240x180-1729929943.jpg?downsize=120:*" },
-      { "id": 7, "name": "redmi-a3-pro-xiaomi", "price": 50, "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*" },
-      { "id": 8, "name": "vivo-X200-pro-mini", "price": 55, "image": "https://i.gadgets360cdn.com/products/small/vivo-X200-pro-mini-db-240x180-1728969699.jpg?downsize=120:*" },
-      { "id": 9, "name": "tecno-spark-30c tecno", "price": 60, "image": "https://i.gadgets360cdn.com/products/small/tecno-spark-30c-5g-tecno-db-240x180-1728396920.jpg?downsize=120:*" },
-      { "id": 10, "name": "iqoo-z9-turbo-plus", "price": 65, "image": "https://i.gadgets360cdn.com/products/small/iqoo-z9-turbo-plus-iqoo-db-240x180-1727187052.jpg?downsize=120:*" }
+      { "id": 1, "name": "Realme-note-60x", "price": 20000, "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*" },
+      { "id": 2, "name": "Mate-70", "price": 25000, "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*"},
+      { "id": 3, "name": "Reno-13", "price": 30000, "image": "https://i.gadgets360cdn.com/products/small/reno-13-db-240x180-1732623706.jpg?downsize=120:*" },
+      { "id": 4, "name": "Honor-x60-pro", "price": 35000, "image": "https://i.gadgets360cdn.com/products/small/honor-x60-pro-db-240x180-1729254519.jpg?downsize=120:*" },
+      { "id": 5, "name": "Mate-70-pro-plus", "price": 40000, "image": "https://i.gadgets360cdn.com/products/large/mate-70-pro-plus-725x800-1732625652.jpg?downsize=*:180" },
+      { "id": 6, "name": "Poco-c75", "price": 45000, "image": "https://i.gadgets360cdn.com/products/small/poco-c75-240x180-1729929943.jpg?downsize=120:*" },
+      { "id": 7, "name": "Redmi-a3-pro-xiaomi", "price": 50000, "image": "https://i.gadgets360cdn.com/products/small/mate-70-240x180-1732625107.jpg?downsize=120:*" },
+      { "id": 8, "name": "Vivo-X200-pro-mini", "price": 55000, "image": "https://i.gadgets360cdn.com/products/small/vivo-X200-pro-mini-db-240x180-1728969699.jpg?downsize=120:*" },
+      { "id": 9, "name": "Tecno-spark-30c tecno", "price": 60000, "image": "https://i.gadgets360cdn.com/products/small/tecno-spark-30c-5g-tecno-db-240x180-1728396920.jpg?downsize=120:*" },
+      { "id": 10, "name": "Iqoo-z9-turbo-plus", "price": 65000, "image": "https://i.gadgets360cdn.com/products/small/iqoo-z9-turbo-plus-iqoo-db-240x180-1727187052.jpg?downsize=120:*" }
     ]
   }
+  

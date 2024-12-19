@@ -102,30 +102,57 @@
 
 
 
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import UserRouter from "./user/UserRouter";
-import AdminRouter from "./admin/AdminRouter";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-// import { CartProvider } from "./context/CartContext";  // Correct import
+// import React from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import UserRouter from "./user/UserRouter";
+// import AdminRouter from "./admin/AdminRouter";
+// import Navbar from "./components/Navbar";
+// import Footer from "./components/Footer";
+// import { CartProvider } from './contexts/CartContext';  // Correct import
 
+// function App() {
+//   return (
+//     <CartProvider>
+//         <Router>
+//         <div className="flex flex-col min-h-screen">
+//           <Navbar />
+//           <main className="flex-grow container mx-auto p-4">
+//             <Routes>
+//               <Route path="/*" element={<UserRouter />} />
+//               <Route path="/admin/*" element={<AdminRouter />} />
+//             </Routes>
+//           </main>
+//           <Footer />
+//         </div>
+//         </Router>
+//     </CartProvider>
+//   );
+// }
+
+
+// export default App;
+
+
+
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { UserProvider } from "./contexts/UserContext";
+import { CartProvider } from "./contexts/CartContext";
+import UserRouter from './user/UserRouter';
+import AdminRouter from './admin/AdminRouter';
 function App() {
   return (
-    <Router>
-      {/* <CartProvider> Use CartProvider instead of CartContext */}
-        <div className="flex flex-col min-h-screen">
-          <Navbar />
-          <main className="flex-grow container mx-auto p-4">
-            <Routes>
-              <Route path="/*" element={<UserRouter />} />
-              <Route path="/admin/*" element={<AdminRouter />} />
-            </Routes>
-          </main>
-          <Footer />
-        </div>
-      {/* </CartProvider> */}
-    </Router>
+    <UserProvider>
+      <CartProvider>
+        <Router>
+                <Routes>
+                  <Route path='/*' element={ <UserRouter/> } />
+                  <Route path="/admin*" element = { <AdminRouter/> } />
+                </Routes>
+            </Router>
+            </CartProvider>
+          </UserProvider>
+    
   );
 }
 

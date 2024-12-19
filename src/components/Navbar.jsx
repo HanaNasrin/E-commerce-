@@ -44,7 +44,7 @@ function Navbar() {
       {/* <NavLink to="/" className="text-lg font-bold">
         E-Commerce
       </NavLink> */}
-      <img src="assets/ecom.png" alt="logo" className="w-20 h-20" />
+      <img src="assets/ecom.png" alt="logo" className="w-29 h-14" />
       
       {/* Navigation Links */}
       <div className="flex space-x-4">
