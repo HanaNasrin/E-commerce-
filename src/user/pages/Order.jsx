@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import { useUser } from "../../contexts/UserContext";
 
 const Orders = () => {
-  const { user } = useUser();
+  const { email } = useUser();
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    if (user) {
-      fetch(`http://localhost:5001/order?user=${user}`)
+    if (email) {
+      fetch(`http://localhost:5001/order?email=${email}`)
         .then((res) => res.json())
         .then((data) => {
           if (Array.isArray(data)) {
@@ -19,10 +19,10 @@ const Orders = () => {
         })
         .catch((err) => console.error("Error fetching orders:", err));
     }
-  }, [user]);
+  }, [email]);
   
 
-  if (!user) return <p>Please log in to view orders</p>;
+  if (!email) return <p>Please log in to view orders</p>;
 
   return (
     <div className="max-w-4xl mx-auto py-8 px-4">
@@ -52,5 +52,4 @@ const Orders = () => {
     </div>
   );
 };
-
 export default Orders;

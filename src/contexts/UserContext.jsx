@@ -75,19 +75,64 @@
 
 
 
-import React, { createContext, useState,useContext } from 'react';
+// import React, { createContext, useState,useContext } from 'react';
 
-export const UserContext = createContext();
+// export const UserContext = createContext();
 
 
-export const useUser = () => useContext(UserContext);
+// export const useUser = () => useContext(UserContext);
 
+// export const UserProvider = ({ children }) => {
+//   const [email, setUser] = useState(localStorage.getItem("username") || null); // Holds user data
+
+//   return (
+//     <UserContext.Provider value={{ email, setUser }}>
+//       {children}
+//     </UserContext.Provider>
+//   );
+// };
+
+
+
+import React, { createContext, useContext, useState } from "react";
+
+// Create UserContext
+const UserContext = createContext();
+
+// UserProvider
 export const UserProvider = ({ children }) => {
-  const [user, setUser] = useState(localStorage.getItem("username") || null); // Holds user data
+  const [email, setEmail] = useState(() => localStorage.getItem("email") || "");
+  const [username, setUsername] = useState(() => localStorage.getItem("username") || "");
+
+  // Handle Login
+  const handleLogin = (userEmail) => {
+    const userUsername = userEmail.split('@')[0]; // Extract username from email 
+    localStorage.setItem("email", userEmail); 
+    localStorage.setItem("username", userUsername); 
+    setEmail(userEmail); 
+    setUsername(userUsername)
+  };
+
+  // Handle Logout
+  const handleLogout = () => {
+    localStorage.removeItem("email");
+    localStorage.removeItem("username");
+    setEmail("");
+    setUsername("");
+  };
 
   return (
-    <UserContext.Provider value={{ user, setUser }}>
+    <UserContext.Provider
+      value={{
+        email,username,
+        handleLogin, // Use this for login functionality
+        handleLogout,
+      }}
+    >
       {children}
     </UserContext.Provider>
   );
 };
+
+// Custom hook for ease of use
+export const useUser = () => useContext(UserContext);

@@ -149,9 +149,9 @@ function App() {
                   <Route path='/*' element={ <UserRouter/> } />
                   <Route path="/admin*" element = { <AdminRouter/> } />
                 </Routes>
-            </Router>
-            </CartProvider>
-          </UserProvider>
+        </Router>
+      </CartProvider>
+    </UserProvider>
     
   );
 }

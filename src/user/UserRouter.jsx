@@ -121,38 +121,77 @@
 
 
 
-import Footer from "../components/Footer"
-import Home from "../user/pages/Home"
-import { Routes, Route } from 'react-router-dom';
-import Cart from "../user/pages/Cart";
-import Orders from "../user/pages/Orders";
-import Signup from "../user/pages/Signup";
-import Login from "../user/pages/Login";
-import ProductDetail from "../user/pages/ProductDetail";
-import Checkout from "../user/pages/Checkout";
-import Navbar from "../components/Navbar";
+// import Footer from "../components/Footer"
+// import Home from "../user/pages/Home"
+// import { Routes, Route } from 'react-router-dom';
+// import Cart from "../user/pages/Cart";
+// import Order from "./pages/Order";
+// import Signup from "../components/Signup";
+// import Login from "../components/Login";
+// import ProductDetail from "../user/pages/ProductDetail";
+// import Checkout from "../user/pages/Checkout";
+// import Navbar from "../components/Navbar";
 
-const UserRouter =() =>{
-    return (
+// const UserRouter =() =>{
+//     return (
        
-            // <Router>
-              <div className=" flex flex-col min-h-screen">
-                <Navbar/>
-                  <div className="flex-grow">
-                    <Routes>
-                      <Route path='/' element={ <Home/> } />
-                      <Route path='/cart' element={ <Cart/>} />
-                      <Route path='/orders' element={<Orders/>} />
-                      <Route path='/Login' element={<Login/>}/>
-                      <Route path='/signup' element={<Signup/>}/>
-                      <Route path="/product/:id" element={<ProductDetail />} />
-                      <Route path='/checkout' element={ <Checkout/>} />
-                    </Routes>
-                </div>
-                <Footer/>
-              </div>
-            // </Router>
+//             // <Router>
+//               <div className=" flex flex-col min-h-screen">
+//                 <Navbar/>
+//                   <div className="flex-grow">
+//                     <Routes>
+//                       <Route path='/' element={ <Home/> } />
+//                       <Route path='/cart' element={ <Cart/>} />
+//                       <Route path='/order' element={<Order/>} />
+//                       <Route path='/Login' element={<Login/>}/>
+//                       <Route path='/signup' element={<Signup/>}/>
+//                       <Route path="/product/:id" element={<ProductDetail />} />
+//                       <Route path='/checkout' element={ <Checkout/>} />
+//                     </Routes>
+//                 </div>
+//                 <Footer/>
+//               </div>
+//             // </Router>
     
-      );
+//       );
+// }
+// export default UserRouter;
+
+
+
+
+
+
+import {Routes, Route } from "react-router-dom";
+
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import Home from '../user/pages/Home';
+import ProductDetail from "../user/pages/ProductDetail";
+import Cart from '../user/pages/Cart';
+import Order from '../user/pages/Order';
+import Login from '../components/Login';
+import Signup from '../components/Signup';
+import Checkout from "../user/pages/Checkout";
+
+function UserRouter() {
+  return (
+        <div className="flex flex-col min-h-screen">
+            <Navbar/>
+            <div className="flex-grow">
+              <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/Cart" element={<Cart/>}/>
+                <Route path="/Checkout" element={<Checkout/>}/>
+                <Route path="/Order" element={<Order/>}/>
+                <Route path="/Login" element={<Login/>}/>
+                <Route path="/Signup" element={<Signup/>}/>
+                <Route path="/Product/:id" element={<ProductDetail/>} />
+              </Routes>
+            </div>
+            <Footer/>
+          </div>
+  );
 }
+
 export default UserRouter;

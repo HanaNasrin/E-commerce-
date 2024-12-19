@@ -5,7 +5,7 @@ import { useUser } from "../../contexts/UserContext";
 
 const Checkout = () => {
   const { cart , clearCart } = useCart();
-  const { user } = useUser()
+  const { email } = useUser()
   const getTotalPrice = () =>  cart.reduce((total, item) => total + item.price * item.quantity, 0);
   const navigate = useNavigate();
   const [selectedPayment, setSelectedPayment] = useState("");
@@ -23,7 +23,7 @@ const Checkout = () => {
         return; 
     }
     const orderDetails = {
-      user, // Get from UserContext
+      email, // Get from UserContext
       items: cart.map((item) => ({
         id: item.id,
         name: item.name,
