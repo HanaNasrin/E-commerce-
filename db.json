@@ -1,70 +1,70 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Realme-note-60x",
       "price": 20000,
       "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*",
       "description": "A sleek and affordable smartphone with modern features, ideal for everyday use."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Mate-70",
       "price": 25000,
       "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
       "description": "A sleek and affordable smartphone with modern features, ideal for everyday use."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Reno-13",
       "price": 30000,
       "image": "https://i.gadgets360cdn.com/products/small/reno-13-db-240x180-1732623706.jpg?downsize=120:*",
       "description": "Combines elegant design with robust capabilities for professionals and enthusiasts."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Honor-x60-pro",
       "price": 35000,
       "image": "https://i.gadgets360cdn.com/products/small/honor-x60-pro-db-240x180-1729254519.jpg?downsize=120:*",
-      "description":"A high-performance phone designed for multitaskers with a touch of sophistication."
+      "description": "A high-performance phone designed for multitaskers with a touch of sophistication."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Mate-70-pro-plus",
       "price": 40000,
       "image": "https://i.gadgets360cdn.com/products/large/mate-70-pro-plus-725x800-1732625652.jpg?downsize=*:180",
       "description": "A premium smartphone offering cutting-edge technology and exceptional durability."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Poco-c75",
       "price": 45000,
       "image": "https://i.gadgets360cdn.com/products/small/poco-c75-240x180-1729929943.jpg?downsize=120:*",
       "description": "High-end device with fast performance and innovative features, perfect for tech enthusiasts."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Redmi-a3-pro-xiaomi",
       "price": 50000,
       "image": "https://i.gadgets360cdn.com/products/small/mate-70-240x180-1732625107.jpg?downsize=120:*",
       "description": "Powerful and efficient, this smartphone caters to professionals and gamers alike."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Vivo-X200-pro-mini",
       "price": 55000,
       "image": "https://i.gadgets360cdn.com/products/small/vivo-X200-pro-mini-db-240x180-1728969699.jpg?downsize=120:*",
       "description": "Compact and lightweight, it offers excellent performance in a stylish package."
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Tecno-spark-30c tecno",
       "price": 60000,
       "image": "https://i.gadgets360cdn.com/products/small/tecno-spark-30c-5g-tecno-db-240x180-1728396920.jpg?downsize=120:*",
-       "description": "An advanced smartphone with impressive camera capabilities and robust performance."
+      "description": "An advanced smartphone with impressive camera capabilities and robust performance."
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Iqoo-z9-turbo-plus",
       "price": 65000,
       "image": "https://i.gadgets360cdn.com/products/small/iqoo-z9-turbo-plus-iqoo-db-240x180-1727187052.jpg?downsize=120:*",
@@ -84,10 +84,16 @@
       "email": "hanakm288@gmail.com",
       "password": "hana123"
     }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "name": "Realme-note-60x",
+      "price": 20000,
+      "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*",
+      "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+      "email": "hanakm288@gmail.com",
+      "quantity": 2
+    }
   ]
 }
-
-
-
-
-

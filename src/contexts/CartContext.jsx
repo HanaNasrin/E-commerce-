@@ -158,7 +158,7 @@ export const CartProvider = ({ children }) => {
    // Fetch cart items from the database on component mount or when email changes
    useEffect(() => {
     if (email) {
-      fetch(`http://localhost:5000/cart?email=${email}`)
+      fetch(`http://localhost:5001/cart?email=${email}`)
         .then((res) => res.json())
         .then((data) => setCart(data || []))
         .catch((err) => console.error("Error fetching cart data:", err));
@@ -176,7 +176,7 @@ export const CartProvider = ({ children }) => {
 
     if (existingProduct) {
       // If product exists, update quantity
-      fetch(`http://localhost:5000/cart/${existingProduct.id}`, {
+      fetch(`http://localhost:5001/cart/${existingProduct.id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ quantity: existingProduct.quantity + 1 }),
@@ -194,7 +194,7 @@ export const CartProvider = ({ children }) => {
         .catch((err) => console.error("Error updating cart:", err));
     } else {
 
-        fetch(`http://localhost:5000/cart`, {
+        fetch(`http://localhost:5001/cart`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...product, email }),
@@ -212,7 +212,7 @@ export const CartProvider = ({ children }) => {
       return;
     }
 
-    fetch(`http://localhost:5000/cart/${productId}?email=${email}`, {
+    fetch(`http://localhost:5001/cart/${productId}?email=${email}`, {
       method: "DELETE",
     })
       .then(() => {
@@ -227,7 +227,7 @@ export const CartProvider = ({ children }) => {
       return;
     }
 
-    fetch(`http://localhost:5000/cart/clear?email=${email}`, {
+    fetch(`http://localhost:5001/cart/clear?email=${email}`, {
       method: "DELETE",
     })
       .then(() => setCart([]))
@@ -240,7 +240,7 @@ export const CartProvider = ({ children }) => {
       return;
     }
 
-    fetch(`http://localhost:5000/cart/${productId}?email=${email}`, {
+    fetch(`http://localhost:5001/cart/${productId}?email=${email}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ quantity: amount }),
