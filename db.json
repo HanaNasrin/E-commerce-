@@ -92,8 +92,31 @@
       "price": 20000,
       "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*",
       "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
-      "email": "hanakm288@gmail.com",
-      "quantity": 2
+      "email": "hanakm288@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Mate-70",
+      "price": 25000,
+      "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
+      "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+      "email": "hanakm288@gmail.com"
+    },
+    {
+      "id": "1",
+      "name": "Realme-note-60x",
+      "price": 20000,
+      "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*",
+      "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+      "email": "hanakm288@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Mate-70-pro-plus",
+      "price": 40000,
+      "image": "https://i.gadgets360cdn.com/products/large/mate-70-pro-plus-725x800-1732625652.jpg?downsize=*:180",
+      "description": "A premium smartphone offering cutting-edge technology and exceptional durability.",
+      "email": "hanakm288@gmail.com"
     }
   ]
 }

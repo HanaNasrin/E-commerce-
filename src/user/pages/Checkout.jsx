@@ -250,7 +250,7 @@ const Checkout = () => {
       if (response.ok) {
         alert(`Order placed successfully with ${selectedPayment}!`);
         clearCart(); // Clear the cart after placing the order
-        navigate("/orders");
+        navigate("/order");
       } else {
         alert("Failed to place the order. Please try again.");
       }
