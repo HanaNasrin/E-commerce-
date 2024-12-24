@@ -157,8 +157,8 @@ function Navbar() {
 
     <div className='Navbar  sticky top-0 w-full h-[77px] p-4 bg-white flex items-center z-50 justify-between shadow-lg'>
         <div className='flex items-center'>
-            <img src="assets/ecom.png" alt="logo" className='w-20 h-20'/>
-            <p className='font-bold text-2xl md:2xl'></p>
+            <img src="https://files.softicons.com/download/web-icons/services-flat-icons-by-jozef-krajcovic/png/256x256/e-comerce.png" alt="logo" className='w-19 h-14'/>
+            <p className='font-bold text-2xl md:2xl'>E-commerce</p>
         </div>
         <div className='hidden md:flex justify-center space-x-4 text-lg font-semibold'>
             <ul className='flex space-x-4 '>

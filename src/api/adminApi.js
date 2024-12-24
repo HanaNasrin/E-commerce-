@@ -2,7 +2,7 @@ import axios from "axios";
 
 const UserURL = "http://localhost:5000/users";
 const OrderURL = "http://localhost:5000/orders";
-const ProductURL = "http://localhost:5000/mobiles";
+const ProductURL = "http://localhost:5000/products";
 
 export const getAllUsers = async () => {
     return await axios.get(UserURL);

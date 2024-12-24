@@ -76,39 +76,16 @@
       "id": "1",
       "username": "john doe",
       "password": "password123",
-      "email": "example@gmail.com"
+      "email": "example@gmail.com",
+      "role":"user"
     },
     {
       "id": "6915",
       "name": "hana",
       "email": "hanakm288@gmail.com",
       "password": "hana123",
-      "cart": [
-        {
-          "id": "2",
-          "name": "Mate-70",
-          "price": 25000,
-          "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
-          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
-          "qty": 1
-        },
-        {
-          "id": "4",
-          "name": "Honor-x60-pro",
-          "price": 35000,
-          "image": "https://i.gadgets360cdn.com/products/small/honor-x60-pro-db-240x180-1729254519.jpg?downsize=120:*",
-          "description": "A high-performance phone designed for multitaskers with a touch of sophistication.",
-          "qty": 1
-        },
-        {
-          "id": "8",
-          "name": "Vivo-X200-pro-mini",
-          "price": 55000,
-          "image": "https://i.gadgets360cdn.com/products/small/vivo-X200-pro-mini-db-240x180-1728969699.jpg?downsize=120:*",
-          "description": "Compact and lightweight, it offers excellent performance in a stylish package.",
-          "qty": 1
-        }
-      ]
+      "role":"user",
+      "cart": []
     },
     {
       "id": "85a8",
@@ -121,7 +98,7 @@
       "name": "hi",
       "email": "hi@gmail.com",
       "password": "12345678",
-      "role": "user",
+      "role": "admin",
       "blocked": false,
       "cart": []
     }
@@ -297,6 +274,78 @@
         "country": "India"
       },
       "date": "2024-12-24T05:08:47.544Z"
+    },
+    {
+      "id": "02ac",
+      "userId": "6915",
+      "items": [
+        {
+          "id": "2",
+          "name": "Mate-70",
+          "price": 25000,
+          "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
+          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+          "qty": 1
+        },
+        {
+          "id": "4",
+          "name": "Honor-x60-pro",
+          "price": 35000,
+          "image": "https://i.gadgets360cdn.com/products/small/honor-x60-pro-db-240x180-1729254519.jpg?downsize=120:*",
+          "description": "A high-performance phone designed for multitaskers with a touch of sophistication.",
+          "qty": 1
+        },
+        {
+          "id": "8",
+          "name": "Vivo-X200-pro-mini",
+          "price": 55000,
+          "image": "https://i.gadgets360cdn.com/products/small/vivo-X200-pro-mini-db-240x180-1728969699.jpg?downsize=120:*",
+          "description": "Compact and lightweight, it offers excellent performance in a stylish package.",
+          "qty": 1
+        },
+        {
+          "id": "1",
+          "name": "Realme-note-60x",
+          "price": 20000,
+          "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*",
+          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+          "qty": 1
+        }
+      ],
+      "total": 135000,
+      "paymentMethod": "Credit Card",
+      "address": {
+        "street": "kiliyamannil house",
+        "city": "malappuram",
+        "state": "kerala",
+        "zip": "676504",
+        "country": "India"
+      },
+      "date": "2024-12-24T05:56:48.759Z"
+    },
+    {
+      "id": "622b",
+      "userId": "6915",
+      "items": [
+        {
+          "id": "1",
+          "name": "Realme-note-60x",
+          "price": 20000,
+          "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*",
+          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+          "qty": 1
+        }
+      ],
+      "total": 20000,
+      "paymentMethod": "Cash on Delivery",
+      "address": {
+        "street": "kiliyamannil house",
+        "city": "malappuram",
+        "state": "kerala",
+        "zip": "676504",
+        "country": "India"
+      },
+      "date": "2024-12-24T06:03:05.009Z"
     }
   ]
 }

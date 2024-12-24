@@ -121,19 +121,20 @@ import { Routes, Route, useLocation } from "react-router-dom";
 // import { UserProvider } from "./contexts/UserContext";
 // import { CartProvider } from "./contexts/CartContext";
 import UserRouter from "./user/routes/UserRouter";
-import AdminRouter from "./admin/routes/AdminRouter";
+;
 import Home from './user/pages/Home';
 import Login from './auth/pages/Login';
 import Signup from './auth/pages/Signup';
 import ProductDetail from './user/pages/ProductDetail';
 import UserProtectedRouter from './user/routes/UserProtectedRouter';
-import AdminProtectedRoutes from './admin/routes/AdminProtectedRoutes'
+import AdminProtectedRoutes from './admin/routes/AdminProtectedRoutes';
 // import AdminNavbar from './admin/pages/AdminNavbar';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 import AdminNavbar from './admin/pages/AdminNavbar';
 import { Notfound } from "./components/Notfound";
+import AdminRouter from "./admin/routes/AdminRouter";
 
 
 // function App() {
