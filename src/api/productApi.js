@@ -1,16 +1,16 @@
-// import axiosInstance from './axiosInstance';
+import axios from "axios";
 
-// export const getProducts = async () => {
-//   const response = await axiosInstance.get('/products');
-//   return response.data;
-// };
+const UserURL = "http://localhost:5000/users";
+const ProductURL = "http://localhost:5000/products";
 
-// export const getProductById = async (id) => {
-//   const response = await axiosInstance.get(`/products/${id}`);
-//   return response.data;
-// };
+export const getAllProduct = () =>{
+    return axios.get(ProductURL);
+}
 
-// export const addProduct = async (product) => {
-//   const response = await axiosInstance.post('/products', product);
-//   return response.data;
-// };
+export const getProductbyId = (ProductId) =>{
+    return axios.get(`${ProductURL}/${ProductId}`);
+}
+
+export const updateCart = async (userId,cartData) => {
+    return axios.put(`${UserURL}/${userId}`,cartData);
+}

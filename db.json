@@ -82,16 +82,57 @@
       "id": "6915",
       "name": "hana",
       "email": "hanakm288@gmail.com",
-      "password": "hana123"
+      "password": "hana123",
+      "cart": [
+        {
+          "id": "2",
+          "name": "Mate-70",
+          "price": 25000,
+          "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
+          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+          "qty": 1
+        },
+        {
+          "id": "4",
+          "name": "Honor-x60-pro",
+          "price": 35000,
+          "image": "https://i.gadgets360cdn.com/products/small/honor-x60-pro-db-240x180-1729254519.jpg?downsize=120:*",
+          "description": "A high-performance phone designed for multitaskers with a touch of sophistication.",
+          "qty": 1
+        },
+        {
+          "id": "8",
+          "name": "Vivo-X200-pro-mini",
+          "price": 55000,
+          "image": "https://i.gadgets360cdn.com/products/small/vivo-X200-pro-mini-db-240x180-1728969699.jpg?downsize=120:*",
+          "description": "Compact and lightweight, it offers excellent performance in a stylish package.",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "85a8",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "abc123"
+    },
+    {
+      "id": "78cf",
+      "name": "hi",
+      "email": "hi@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "blocked": false,
+      "cart": []
     }
   ],
   "cart": [
     {
-      "id": "1",
-      "name": "Realme-note-60x",
-      "price": 20000,
-      "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*",
-      "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+      "id": "8",
+      "name": "Vivo-X200-pro-mini",
+      "price": 55000,
+      "image": "https://i.gadgets360cdn.com/products/small/vivo-X200-pro-mini-db-240x180-1728969699.jpg?downsize=120:*",
+      "description": "Compact and lightweight, it offers excellent performance in a stylish package.",
       "email": "hanakm288@gmail.com"
     },
     {
@@ -100,23 +141,162 @@
       "price": 25000,
       "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
       "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
-      "email": "hanakm288@gmail.com"
+      "email": "hanakm288@gmail.com",
+      "quantity": 1
     },
     {
-      "id": "1",
-      "name": "Realme-note-60x",
-      "price": 20000,
-      "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*",
-      "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
-      "email": "hanakm288@gmail.com"
+      "id": "10",
+      "name": "Iqoo-z9-turbo-plus",
+      "price": 65000,
+      "image": "https://i.gadgets360cdn.com/products/small/iqoo-z9-turbo-plus-iqoo-db-240x180-1727187052.jpg?downsize=120:*",
+      "description": "A flagship model with blazing speed, perfect for gaming and multitasking.",
+      "email": "abc@gmail.com"
+    }
+  ],
+  "orders": [
+    {
+      "id": "7b1d",
+      "userId": "6915",
+      "items": [
+        {
+          "id": "1",
+          "name": "Realme-note-60x",
+          "price": 20000,
+          "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*",
+          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+          "qty": 3
+        }
+      ],
+      "total": 60000,
+      "paymentMethod": "Cash on Delivery",
+      "address": {
+        "street": "kiliyamannil house",
+        "city": "malappuram",
+        "state": "kerala",
+        "zip": "676504",
+        "country": "India"
+      },
+      "date": "2024-12-24T04:57:34.699Z"
     },
     {
-      "id": "5",
-      "name": "Mate-70-pro-plus",
-      "price": 40000,
-      "image": "https://i.gadgets360cdn.com/products/large/mate-70-pro-plus-725x800-1732625652.jpg?downsize=*:180",
-      "description": "A premium smartphone offering cutting-edge technology and exceptional durability.",
-      "email": "hanakm288@gmail.com"
+      "id": "15f0",
+      "userId": "6915",
+      "items": [
+        {
+          "id": "2",
+          "name": "Mate-70",
+          "price": 25000,
+          "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
+          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+          "qty": 1
+        }
+      ],
+      "total": 25000,
+      "paymentMethod": "Credit Card",
+      "address": {
+        "street": "kiliyamannil house",
+        "city": "malappuram",
+        "state": "kerala",
+        "zip": "676504",
+        "country": "India"
+      },
+      "date": "2024-12-24T04:58:27.750Z"
+    },
+    {
+      "id": "c905",
+      "userId": "6915",
+      "items": [
+        {
+          "id": "2",
+          "name": "Mate-70",
+          "price": 25000,
+          "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
+          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+          "qty": 1
+        }
+      ],
+      "total": 25000,
+      "paymentMethod": "Cash on Delivery",
+      "address": {
+        "street": "kiliyamannil house",
+        "city": "malappuram",
+        "state": "kerala",
+        "zip": "676504",
+        "country": "India"
+      },
+      "date": "2024-12-24T05:01:36.512Z"
+    },
+    {
+      "id": "099d",
+      "userId": "6915",
+      "items": [
+        {
+          "id": "2",
+          "name": "Mate-70",
+          "price": 25000,
+          "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
+          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+          "qty": 1
+        }
+      ],
+      "total": 25000,
+      "paymentMethod": "PayPal",
+      "address": {
+        "street": "kiliyamannil house",
+        "city": "malappuram",
+        "state": "kerala",
+        "zip": "676504",
+        "country": "India"
+      },
+      "date": "2024-12-24T05:04:11.505Z"
+    },
+    {
+      "id": "5186",
+      "userId": "6915",
+      "items": [
+        {
+          "id": "2",
+          "name": "Mate-70",
+          "price": 25000,
+          "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
+          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
+          "qty": 1
+        }
+      ],
+      "total": 25000,
+      "paymentMethod": "Credit Card",
+      "address": {
+        "street": "kiliyamannil house",
+        "city": "malappuram",
+        "state": "kerala",
+        "zip": "676504",
+        "country": "India"
+      },
+      "date": "2024-12-24T05:04:53.369Z"
+    },
+    {
+      "id": "5c32",
+      "userId": "78cf",
+      "items": [
+        {
+          "id": "3",
+          "name": "Reno-13",
+          "price": 30000,
+          "image": "https://i.gadgets360cdn.com/products/small/reno-13-db-240x180-1732623706.jpg?downsize=120:*",
+          "description": "Combines elegant design with robust capabilities for professionals and enthusiasts.",
+          "qty": 2
+        }
+      ],
+      "total": 60000,
+      "paymentMethod": "Cash on Delivery",
+      "address": {
+        "street": "kiliyamannil house",
+        "city": "malappuram",
+        "state": "kerala",
+        "zip": "676504",
+        "country": "India"
+      },
+      "date": "2024-12-24T05:08:47.544Z"
     }
   ]
 }
