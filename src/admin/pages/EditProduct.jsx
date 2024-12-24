@@ -32,7 +32,7 @@ export const EditProduct = () => {
         const res = await editProduct(id, product);
         if (res) alert("Product updated successfully!");
         else alert("Failed to update product!");
-        navigate("/admin/manageproduct");
+        navigate("/admin/manageproducts");
     }
 
   return (
@@ -106,7 +106,7 @@ export const EditProduct = () => {
                 <img
                 src={product.image}
                 alt="Product Preview"
-                className="mt-4 w-32 h-32 object-cover rounded-md"
+                className="mt-4 w-32 object-cover rounded-md"
                 />
             )}
           </div>

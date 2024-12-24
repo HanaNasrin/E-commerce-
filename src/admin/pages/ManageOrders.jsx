@@ -122,7 +122,7 @@ const ManageOrders = () => {
                         {orders.map(order => 
                             order.items.map(item => (
                                 <tr key={order.id} className="border-t">
-                                    <td className="px-6 py-3 text-sm text-gray-700"><img src={item.image} alt="img" className="w-16 h-16 object-cover rounded-md" /> </td>
+                                    <td className="px-6 py-3 text-sm text-gray-700"><img src={item.image} alt="img" className="w-16  object-cover rounded-md" /> </td>
                                     <td className="px-4 py-2">{order.userName}</td>
                                     <td className="px-4 py-2">₹ {order.total}</td>
                                     <td className="px-4 py-2">

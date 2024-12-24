@@ -1,97 +1,92 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Realme-note-60x",
-      "price": 20000,
-      "image": "https://i.gadgets360cdn.com/products/small/realme-note-60x-realme-db-240x180-1733223068.jpg?downsize=120:*",
-      "description": "A sleek and affordable smartphone with modern features, ideal for everyday use."
-    },
-    {
       "id": "2",
       "name": "Mate-70",
       "price": 25000,
       "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
-      "description": "A sleek and affordable smartphone with modern features, ideal for everyday use."
+      "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.\nChipset: Mediatek Helio G81 Ultra\nOS: Android 14, HyperOS\nRAM: 4GB, 6GB, 8GB\nInternal Storage: 128GB, expandable via microSD card\nDisplay: 6.88 inches, HD+ resolution, 600 nits brightness\nCamera: Dual 50MP, 8MP front\nConnectivity: Dual SIM, 4G, Wi-Fi, Bluetooth, GPS\nPorts: USB Type-C, 3.5mm audio jack\nColors: Midnight Black, Sage Green, Dreamy Purple, and Starry Blue.\nBattery: 5160mAh, 18W charging"
     },
     {
       "id": "3",
-      "name": "Reno-13",
-      "price": 30000,
+      "name": "OPPO Reno-13",
+      "price": "58000",
       "image": "https://i.gadgets360cdn.com/products/small/reno-13-db-240x180-1732623706.jpg?downsize=120:*",
-      "description": "Combines elegant design with robust capabilities for professionals and enthusiasts."
+      "description": "Combines elegant design with robust capabilities for professionals and enthusiasts.\nDisplay\t6.83″ 1.5K AMOLED\nStorage:\t16GB+1TB\nCamera:\t50MP / 50MP\nProcessor:\tDimensity 8350\nBattery:\t5800mAh\n"
     },
     {
       "id": "4",
       "name": "Honor-x60-pro",
       "price": 35000,
       "image": "https://i.gadgets360cdn.com/products/small/honor-x60-pro-db-240x180-1729254519.jpg?downsize=120:*",
-      "description": "A high-performance phone designed for multitaskers with a touch of sophistication."
+      "description": "A high-performance phone designed for multitaskers with a touch of sophistication\nDisplay:\n6.78-inch OLED display\nFull HD+ resolution (1080 x 2400 pixels)\n120Hz refresh rate\nCurved edges for a premium look and feel\nProcessor:\nMediaTek Dimensity 920 chipset\nOcta-core (2.5 GHz)\nRAM and Storage:\n8GB / 12GB RAM options\n128GB / 256GB internal storage (non-expandable)\nCamera:\nRear Camera:\n50 MP primary camera (with OIS)\n50 MP ultra-wide camera\n2 MP depth sensor or macro camera\nFront Camera:\n32 MP for high-quality selfies\nPossibly enhanced by AI for improved portrait and beauty shots\nBattery:\n4800 mAh\n66W fast charging support (for rapid charging)\nOperating System:\nAndroid 12 with Magic UI (Honor’s custom skin)\n"
     },
     {
       "id": "5",
-      "name": "Mate-70-pro-plus",
+      "name": "Huawei Mate-70 Pro Plus",
       "price": 40000,
       "image": "https://i.gadgets360cdn.com/products/large/mate-70-pro-plus-725x800-1732625652.jpg?downsize=*:180",
-      "description": "A premium smartphone offering cutting-edge technology and exceptional durability."
+      "description": "A premium smartphone offering cutting-edge technology and exceptional durability\nDisplay:6.82-inch OLED display\nResolution: 1344 x 2772 pixels\n120Hz refresh rate for smooth scrolling and gaming\nHDR10+ support for better color and contrast\nProcessor:Huawei Kirin 9000S chipset (possibly 5nm architecture)\nOcta-core (high-performance cores for demanding tasks)\nRAM and Storage:8GB / 12GB RAM options\n256GB / 512GB internal storage (non-expandable, UFS 3.1)\nCamera:Rear Camera:50 MP primary camera with wide aperture (f/1.8)\n64 MP telephoto lens with 3.5x optical zoom and up to 100x digital zoom\n13 MP ultra-wide-angle camera\nLaser autofocus and Optical Image Stabilization (OIS) for enhanced low-light performance\nFront Camera:13 MP wide-angle camera for high-quality selfies and video calls\nBattery:4700 mAh\n88W fast charging support (wired)\n50W wireless charging support\nOperating System:HarmonyOS 4.0 (Huawei’s custom OS, based on Android, without Google services)\nOther Features:In-display fingerprint sensor\n5G connectivity support\nUSB Type-C port\nStereo speakers for immersive sound\nIP68 rating for water and dust resistance\n."
     },
     {
       "id": "6",
-      "name": "Poco-c75",
-      "price": 45000,
+      "name": "POCO-C75",
+      "price": "65000",
       "image": "https://i.gadgets360cdn.com/products/small/poco-c75-240x180-1729929943.jpg?downsize=120:*",
-      "description": "High-end device with fast performance and innovative features, perfect for tech enthusiasts."
-    },
-    {
-      "id": "7",
-      "name": "Redmi-a3-pro-xiaomi",
-      "price": 50000,
-      "image": "https://i.gadgets360cdn.com/products/small/mate-70-240x180-1732625107.jpg?downsize=120:*",
-      "description": "Powerful and efficient, this smartphone caters to professionals and gamers alike."
+      "description": "High-end device with fast performance and innovative features, perfect for tech enthusiasts.\nDisplay:6.71-inch LCD display\nResolution: 1650 x 720 pixels (HD+)\n90Hz refresh rate for smooth scrolling\nProcessor:MediaTek Helio G85 chipset\nOcta-core processor with up to 2.0 GHz clock speed\nRAM and Storage:4GB / 6GB RAM options\n64GB / 128GB internal storage (expandable via microSD card)\nCamera:Rear Camera:50 MP primary camera with f/1.8 aperture\n2 MP depth sensor for portrait shots\nFront Camera:\n5 MP selfie camera\nBattery:5000 mAh\n18W fast charging support\nOperating System:MIUI 14 for Poco (based on Android 13)\nOther Features:Side-mounted fingerprint sensor\n4G LTE connectivity\nUSB Type-C port\nDual SIM support\n3.5mm headphone jack\nDesign:Plastic back panel with a glossy finish\nMinimalistic design with Poco branding at the back\nFlat edges and a modern appearance"
     },
     {
       "id": "8",
-      "name": "Vivo-X200-pro-mini",
-      "price": 55000,
+      "name": "Vivo-X200 Pro Mini",
+      "price": "86000",
       "image": "https://i.gadgets360cdn.com/products/small/vivo-X200-pro-mini-db-240x180-1728969699.jpg?downsize=120:*",
-      "description": "Compact and lightweight, it offers excellent performance in a stylish package."
+      "description": "Compact and lightweight, it offers excellent performance in a stylish package.\nDisplay:6.78-inch AMOLED display\nResolution: 2400 x 1080 pixels (Full HD+)\n120Hz refresh rate for smooth visuals and responsive touch\nProcessor:MediaTek Dimensity 1300 chipset (or similar mid-range 5G chipset)\nOcta-core processor (up to 3.0 GHz for high performance)\nRAM and Storage:8GB / 12GB RAM options\n128GB / 256GB internal storage (non-expandable)\nCamera:Rear Camera:\n50 MP primary camera with f/1.8 aperture\n13 MP ultra-wide camera\n12 MP telephoto camera for zoomed-in shots and bokeh effects\nFront Camera:32 MP for high-quality selfies with AI enhancements\nBattery:4500 mAh\n44W fast charging support (for quick battery top-ups)\nOperating System:Funtouch OS (based on Android 13)\nOther Features:In-display fingerprint sensor for security\n5G connectivity support\nUSB Type-C port\nDual SIM support\nStereo speakers for immersive sound\nDesign:Premium glass and metal construction with curved edges\nSleek and modern look with a glossy back panel\nVivo branding visible on the back"
     },
     {
       "id": "9",
-      "name": "Tecno-spark-30c tecno",
+      "name": "Tecno Spark 30C 5G",
       "price": 60000,
       "image": "https://i.gadgets360cdn.com/products/small/tecno-spark-30c-5g-tecno-db-240x180-1728396920.jpg?downsize=120:*",
-      "description": "An advanced smartphone with impressive camera capabilities and robust performance."
+      "description": "An advanced smartphone with impressive camera capabilities and robust performance.\nDisplay:6.6-inch IPS LCD display\nResolution: 1600 x 720 pixels (HD+)\n90Hz refresh rate for smoother visuals\nProcessor:MediaTek Dimensity 700 chipset (5G-capable)\nOcta-core processor (up to 2.2 GHz)\nRAM and Storage:4GB / 6GB RAM options\n64GB / 128GB internal storage (expandable via microSD card)\nCamera:Rear Camera:50 MP primary camera\n2 MP depth sensor for portrait shots\nFront Camera:8 MP for selfies\nBattery:5000 mAh\n18W fast charging support\nOperating System:HiOS (based on Android 12)\nOther Features:Side-mounted fingerprint sensor for easy access\n5G connectivity support\nUSB Type-C port\nDual SIM support\n3.5mm headphone jack\nDesign:Plastic back panel with a modern, glossy finish\nTecno branding on the back\nSlim and lightweight build"
     },
     {
       "id": "10",
-      "name": "Iqoo-z9-turbo-plus",
+      "name": "iQOO Z9 Turbo Plus",
       "price": 65000,
       "image": "https://i.gadgets360cdn.com/products/small/iqoo-z9-turbo-plus-iqoo-db-240x180-1727187052.jpg?downsize=120:*",
-      "description": "A flagship model with blazing speed, perfect for gaming and multitasking."
+      "description": "A flagship model with blazing speed, perfect for gaming and multitasking.\nDisplay:6.67-inch AMOLED display\nResolution: 2400 x 1080 pixels (Full HD+)\n120Hz refresh rate for smooth gaming and scrolling\nProcessor:Qualcomm Snapdragon 870 chipset (high-performance, 5G-enabled)\nOcta-core processor (up to 3.2 GHz for powerful performance)\nRAM and Storage:8GB / 12GB RAM options\n128GB / 256GB internal storage (non-expandable)\nCamera:Rear Camera:64 MP primary camera with f/1.8 aperture\n13 MP ultra-wide camera\n2 MP depth sensor for portrait shots\nFront Camera:16 MP for clear and vibrant selfies\nBattery:4500 mAh\n66W fast charging support (for rapid charging)\nOperating System:Funtouch OS (based on Android 12)\nOther Features:In-display fingerprint sensor for added security\n5G connectivity support for faster data speeds\nUSB Type-C port\nStereo speakers for immersive audio\nDesign:Premium design with a sleek, glossy finish\nSlim profile with minimal bezels\niQOO branding on the back"
+    },
+    {
+      "id": "19bb",
+      "name": "Iphone-15-pro-max",
+      "price": "100000",
+      "description": "Apple iPhone 15 Pro Max official / unofficial Price. Apple iPhone 15 Pro Max comes with LTPO Super Retina XDR OLED capacitive touchscreen , 6.7 inches, 110.2 cm2 (~89.8% screen-to-body ratio) display, i 17 , Hexa-core (2x + 4x) . The price of Apple iPhone 15 Pro Max is KRW 2496625 In South Korea.\n",
+      "image": "https://th.bing.com/th/id/OIP.zXH_38X9zFNBVz0HOAJZKwAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "99ec",
+      "name": "Apple iPhone 14 Pro Max ",
+      "price": "85000",
+      "description": "Apple iPhone 14 Pro Max 256GB Deep Purple Unlocked US Version",
+      "image": "https://i5.walmartimages.com/asr/cb8f75e5-1b8e-4c06-9776-0d995a314ada.88ab53492f6fe7e653033585616419b1.jpeg"
     }
   ],
   "users": [
     {
       "id": "1",
-      "username": "john doe",
+      "name": "john doe",
       "password": "password123",
       "email": "example@gmail.com",
-      "role":"user"
+      "role": "user",
+      "cart": []
     },
     {
       "id": "6915",
       "name": "hana",
       "email": "hanakm288@gmail.com",
       "password": "hana123",
-      "role":"user",
+      "role": "user",
       "cart": []
-    },
-    {
-      "id": "85a8",
-      "name": "abc",
-      "email": "abc@gmail.com",
-      "password": "abc123"
     },
     {
       "id": "78cf",
@@ -101,33 +96,6 @@
       "role": "admin",
       "blocked": false,
       "cart": []
-    }
-  ],
-  "cart": [
-    {
-      "id": "8",
-      "name": "Vivo-X200-pro-mini",
-      "price": 55000,
-      "image": "https://i.gadgets360cdn.com/products/small/vivo-X200-pro-mini-db-240x180-1728969699.jpg?downsize=120:*",
-      "description": "Compact and lightweight, it offers excellent performance in a stylish package.",
-      "email": "hanakm288@gmail.com"
-    },
-    {
-      "id": "2",
-      "name": "Mate-70",
-      "price": 25000,
-      "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
-      "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.",
-      "email": "hanakm288@gmail.com",
-      "quantity": 1
-    },
-    {
-      "id": "10",
-      "name": "Iqoo-z9-turbo-plus",
-      "price": 65000,
-      "image": "https://i.gadgets360cdn.com/products/small/iqoo-z9-turbo-plus-iqoo-db-240x180-1727187052.jpg?downsize=120:*",
-      "description": "A flagship model with blazing speed, perfect for gaming and multitasking.",
-      "email": "abc@gmail.com"
     }
   ],
   "orders": [
@@ -346,6 +314,54 @@
         "country": "India"
       },
       "date": "2024-12-24T06:03:05.009Z"
+    },
+    {
+      "id": "6664",
+      "userId": "6915",
+      "items": [
+        {
+          "id": "4",
+          "name": "Honor-x60-pro",
+          "price": 35000,
+          "image": "https://i.gadgets360cdn.com/products/small/honor-x60-pro-db-240x180-1729254519.jpg?downsize=120:*",
+          "description": "A high-performance phone designed for multitaskers with a touch of sophistication.",
+          "qty": 1
+        }
+      ],
+      "total": 35000,
+      "paymentMethod": "Cash on Delivery",
+      "address": {
+        "street": "kiliyamannil house",
+        "city": "malappuram",
+        "state": "kerala",
+        "zip": "676504",
+        "country": "India"
+      },
+      "date": "2024-12-24T08:59:13.063Z"
+    },
+    {
+      "id": "6d22",
+      "userId": "1",
+      "items": [
+        {
+          "id": "6",
+          "name": "POCO-C75",
+          "price": "65000",
+          "image": "https://i.gadgets360cdn.com/products/small/poco-c75-240x180-1729929943.jpg?downsize=120:*",
+          "description": "High-end device with fast performance and innovative features, perfect for tech enthusiasts.\nDisplay:6.71-inch LCD display\nResolution: 1650 x 720 pixels (HD+)\n90Hz refresh rate for smooth scrolling\nProcessor:MediaTek Helio G85 chipset\nOcta-core processor with up to 2.0 GHz clock speed\nRAM and Storage:4GB / 6GB RAM options\n64GB / 128GB internal storage (expandable via microSD card)\nCamera:Rear Camera:50 MP primary camera with f/1.8 aperture\n2 MP depth sensor for portrait shots\nFront Camera:\n5 MP selfie camera\nBattery:5000 mAh\n18W fast charging support\nOperating System:MIUI 14 for Poco (based on Android 13)\nOther Features:Side-mounted fingerprint sensor\n4G LTE connectivity\nUSB Type-C port\nDual SIM support\n3.5mm headphone jack\nDesign:Plastic back panel with a glossy finish\nMinimalistic design with Poco branding at the back\nFlat edges and a modern appearance",
+          "qty": 1
+        }
+      ],
+      "total": 65000,
+      "paymentMethod": "Cash on Delivery",
+      "address": {
+        "street": "kiliyamannil house",
+        "city": "malappuram",
+        "state": "kerala",
+        "zip": "676504",
+        "country": "India"
+      },
+      "date": "2024-12-24T09:44:12.877Z"
     }
   ]
 }

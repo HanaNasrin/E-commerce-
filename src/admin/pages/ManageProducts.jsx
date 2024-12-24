@@ -186,7 +186,7 @@ const ManageProducts = () => {
                     <tbody>
                         {products.map(product => (
                             <tr key={product.id} className="border-b hover:bg-gray-50 transition">
-                                <td className="px-6 py-3 text-sm text-gray-700"><img src={product.image} alt="img" className="w-16 h-16 object-cover rounded-md" /> </td>
+                                <td className="px-6 py-3 text-sm text-gray-700"><img src={product.image} alt="img" className="w-16  object-cover rounded-md" /> </td>
                                 <td className="px-6 py-3 text-sm text-gray-700">{product.name}</td>
                                 <td className="px-6 py-3 text-sm text-gray-700">₹{product.price}</td>
                                 <td className="px-6 py-3 text-sm text-gray-700">
