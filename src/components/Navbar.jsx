@@ -175,8 +175,6 @@ function Navbar() {
         {userName ? (
           <>
                 <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="profile" className='w-8 h-8 hidden md:block' />
-                
-              
                 <span className="font-normal text-sm hidden md:block">{userName}</span>
                 <button
                   className='bg-gray-500 px-3 py-1 rounded-full hover:bg-gray-600 text-white hidden md:block'

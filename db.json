@@ -2,10 +2,10 @@
   "products": [
     {
       "id": "2",
-      "name": "Mate-70",
-      "price": 25000,
-      "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
-      "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.\nChipset: Mediatek Helio G81 Ultra\nOS: Android 14, HyperOS\nRAM: 4GB, 6GB, 8GB\nInternal Storage: 128GB, expandable via microSD card\nDisplay: 6.88 inches, HD+ resolution, 600 nits brightness\nCamera: Dual 50MP, 8MP front\nConnectivity: Dual SIM, 4G, Wi-Fi, Bluetooth, GPS\nPorts: USB Type-C, 3.5mm audio jack\nColors: Midnight Black, Sage Green, Dreamy Purple, and Starry Blue.\nBattery: 5160mAh, 18W charging"
+      "name": "Huawei Mate-70 Pro Plus",
+      "price": "95000",
+      "image": "data:image/jpeg;base64,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",
+      "description": "Display:6.82 Inches - LTPO OLED - 120 Hz\nCamera: 48 + 48 + 40 MP\nStorage:512 GB / 1 TB\nRAM16 GB\nChipsetKirin 9000S\nBattery5000 mAh - 88 W"
     },
     {
       "id": "3",
@@ -19,7 +19,7 @@
       "name": "Honor-x60-pro",
       "price": 35000,
       "image": "https://i.gadgets360cdn.com/products/small/honor-x60-pro-db-240x180-1729254519.jpg?downsize=120:*",
-      "description": "A high-performance phone designed for multitaskers with a touch of sophistication\nDisplay:\n6.78-inch OLED display\nFull HD+ resolution (1080 x 2400 pixels)\n120Hz refresh rate\nCurved edges for a premium look and feel\nProcessor:\nMediaTek Dimensity 920 chipset\nOcta-core (2.5 GHz)\nRAM and Storage:\n8GB / 12GB RAM options\n128GB / 256GB internal storage (non-expandable)\nCamera:\nRear Camera:\n50 MP primary camera (with OIS)\n50 MP ultra-wide camera\n2 MP depth sensor or macro camera\nFront Camera:\n32 MP for high-quality selfies\nPossibly enhanced by AI for improved portrait and beauty shots\nBattery:\n4800 mAh\n66W fast charging support (for rapid charging)\nOperating System:\nAndroid 12 with Magic UI (Honor’s custom skin)\n"
+      "description": "A high-performance phone designed for multitaskers with a touch of sophistication\nDisplay:\n6.78-inch OLED display\nFull HD+ resolution (1080 x 2400 pixels)\n120Hz refresh rate\nCurved edges for a premium look and feel\nProcessor:\nMediaTek Dimensity 920 chipset\nOcta-core (2.5 GHz)\nRAM and Storage:\n8GB / 12GB RAM options\n128GB / 256GB internal storage (non-expandable)\nCamera:\nRear Camera:\n50 MP primary camera (with OIS)\n50 MP ultra-wide camera\nFront Camera:\n32 MP for high-quality selfies\nPossibly enhanced by AI for improved portrait and beauty shots\nBattery:\n4800 mAh\n"
     },
     {
       "id": "5",
@@ -69,6 +69,41 @@
       "price": "85000",
       "description": "Apple iPhone 14 Pro Max 256GB Deep Purple Unlocked US Version",
       "image": "https://i5.walmartimages.com/asr/cb8f75e5-1b8e-4c06-9776-0d995a314ada.88ab53492f6fe7e653033585616419b1.jpeg"
+    },
+    {
+      "id": "7420",
+      "name": "Samsung Galaxy S24 5G Onyx Black 128GB and 8GB RAM (SM-S921B)",
+      "price": "150000",
+      "description": "Samsung Galaxy S24 5G Onyx \nBlack 128GB \n 8GB RAM (SM-S921B)",
+      "image": "https://th.bing.com/th/id/OIP.5pLTDO9E_LSYCTAAK3C64wHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "6a51",
+      "name": "Samsung Galaxy S24+ 5G Amber Yellow 256GB and 12GB RAM (SM-S926B)",
+      "price": "95000",
+      "description": "Samsung Galaxy S24+ 5G \nAmber Yellow 256GB and 12GB \nRAM (SM-S926B)",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "b5eb",
+      "name": "Samsung Galaxy S22 Ultra 5G",
+      "price": "69999",
+      "description": "Samsung Galaxy S22 Ultra 5G\nPrimary Camera:108MP Rear Camera\nDual Camera Lens:Secondary Camera",
+      "image": "https://m.media-amazon.com/images/I/61VfL-aiToL._SL1500_.jpg"
+    },
+    {
+      "id": "a9ad",
+      "name": "Samsung Galaxy S22 5G Dual Sim 256GB-Phantom Black",
+      "price": "25000",
+      "description": "Samsung Galaxy S22 5G \nDual Sim 256GB-Phantom Black",
+      "image": "https://i0.wp.com/supercells.co.za/wp-content/uploads/2022/05/samsung_galaxy_s22-BLACK.jpg?fit=300%2C300&ssl=1"
+    },
+    {
+      "id": "bb44",
+      "name": "Apple iPhone 15 Pro Max White Titanium",
+      "price": "96000",
+      "description": "Apple iPhone 15 Pro Max \nWhite Titanium",
+      "image": "https://th.bing.com/th/id/OIP.gZila1q9WuKFqfmaa5pN6AHaGr?w=682&h=615&rs=1&pid=ImgDetMain"
     }
   ],
   "users": [
@@ -362,6 +397,52 @@
         "country": "India"
       },
       "date": "2024-12-24T09:44:12.877Z"
+    },
+    {
+      "id": "8b7b",
+      "userId": "1",
+      "userName": "john doe",
+      "items": [
+        {
+          "id": "2",
+          "name": "Mate-70",
+          "price": "55000",
+          "image": "https://i.gadgets360cdn.com/products/small/redmi-a3-pro-xiaomi-db-240x180-1730309185.jpg?downsize=120:*",
+          "description": "A sleek and affordable smartphone with modern features, ideal for everyday use.\nChipset: Mediatek Helio G81 Ultra\nOS: Android 14, HyperOS\nRAM: 4GB, 6GB, 8GB\nInternal Storage: 128GB, expandable via microSD card\nDisplay: 6.88 inches, HD+ resolution, 600 nits brightness\nCamera: Dual 50MP, 8MP front\nConnectivity: Dual SIM, 4G, Wi-Fi, Bluetooth, GPS\nPorts: USB Type-C, 3.5mm audio jack\nColors: Midnight Black, Sage Green, Dreamy Purple, and Starry Blue.\nBattery: 5160mAh, 18W charging",
+          "qty": 1
+        }
+      ],
+      "total": 55000,
+      "paymentMethod": "Google Pay",
+      "address": {
+        "Name": "hana",
+        "Address": "kiliyamannil house",
+        "Number": "567787654"
+      },
+      "date": "2024-12-25T04:17:37.161Z"
+    },
+    {
+      "id": "02ec",
+      "userId": "1",
+      "userName": "john doe",
+      "items": [
+        {
+          "id": "19bb",
+          "name": "Iphone-15-pro-max",
+          "price": "100000",
+          "description": "Apple iPhone 15 Pro Max official / unofficial Price. Apple iPhone 15 Pro Max comes with LTPO Super Retina XDR OLED capacitive touchscreen , 6.7 inches, 110.2 cm2 (~89.8% screen-to-body ratio) display, i 17 , Hexa-core (2x + 4x) . The price of Apple iPhone 15 Pro Max is KRW 2496625 In South Korea.\n",
+          "image": "https://th.bing.com/th/id/OIP.zXH_38X9zFNBVz0HOAJZKwAAAA?rs=1&pid=ImgDetMain",
+          "qty": 1
+        }
+      ],
+      "total": 100000,
+      "paymentMethod": "Google Pay",
+      "address": {
+        "Name": "abc",
+        "Address": "kiliyamannil",
+        "Number": "55432467788"
+      },
+      "date": "2024-12-25T04:25:32.139Z"
     }
   ]
 }
