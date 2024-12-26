@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const UserURL = "http://localhost:5000/users";
-const OrderURL = "http://localhost:5000/orders";
+const UserURL = "https://e-com-t29h.onrender.com/users";
+const OrderURL = "https://e-com-t29h.onrender.com/orders";
 
 // export const getAllUsers = () =>{
 //     return axios.get(UserURL);
